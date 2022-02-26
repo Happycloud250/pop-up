@@ -6,6 +6,7 @@ body {
   background-color: aliceblue;
   width: 100vw;
   height: 100vh;
+
   transition: 1s background-color ease-in;
 }
 
