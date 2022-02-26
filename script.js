@@ -7,9 +7,12 @@ const footBorder = document.querySelector(".pop-up-foot");
 function popUpFunction() {
   popUpDiv.style.top = "50%";
   container.style.backgroundColor = "gray";
+  container.style.opacity = "65%";
 }
 window.addEventListener("load", (event) => {
-  popUpFunction();
+  setTimeout(() => {
+    popUpFunction();
+  }, 3000);
 });
 const NextPopUpButton = document.querySelector(".first-pop-up-body-button");
 function nextPopUp() {
